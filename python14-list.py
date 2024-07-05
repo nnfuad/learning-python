@@ -42,3 +42,9 @@ print((99 and "Fuad" ) in marks)
 print((99 and "Gandhi" ) in marks)
 marks.clear()
 print(marks)
+
+
+marks = [95, 98, 97, "maths",98]
+marks.remove(98) # removes first occurance of 98
+marks.pop(-3) #pops value at idx -3(97)
+print(marks)
